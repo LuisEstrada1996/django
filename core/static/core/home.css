@@ -1,0 +1,85 @@
+.parallax{
+	height: 850px!important;
+	position: relative;
+}
+.home{
+	margin-top: -1px
+}
+.fondo{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.4);
+	z-index: 2
+}
+.uk-text-center{
+	font-size: 45px;
+}
+h1 p{
+	font-weight: 300; font-size: 24px; color: rgba(255, 255, 255, 0.7)
+}
+.procesos{
+	margin-top: -140px
+}
+.uk-card{
+	z-index: 3;
+	height: 100%!important
+}
+.uk-card span{
+    font-size: 50px;
+    color: rgb(149,191,50);
+}
+
+.separador{
+	background: white;
+	width: 101%;
+	transform: rotate(-1.5deg);
+	height: 80px;
+	margin-left: -10px;
+	z-index: 3
+}
+.servicios{
+	background-color: #52d3aa;
+	background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
+	margin-top: -35px;
+    color: rgba(255, 255, 255, 0.7);
+    z-index: 2!important;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    font-weight: 300;
+
+}
+h2:after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgb(149,191,50);
+    left: 0%;
+    margin-left: 0px;
+    bottom: 0;
+}
+.servicios h2{
+	color: #fff;
+	font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 10px
+
+}
+.servicios p{
+	font-weight: 300;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px
+}
+.servicios .descripcion{
+	font-size: 18px;
+}
+.servicios img {
+	width: 80px
+}
+body{
+	overflow-x: hidden;
+}

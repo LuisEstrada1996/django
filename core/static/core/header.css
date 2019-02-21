@@ -1,0 +1,40 @@
+body{
+	padding: 0;
+}
+.content-primary{
+	width: 70%;
+	margin: auto;
+}
+.header{
+	background: white;
+	padding: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	
+}
+.header .content-img{
+	height: 100%;
+	width: 200px;
+
+}
+.header .content-img img{
+	width: 100%;
+
+}
+.uk-tab>.uk-active>a{
+	border-bottom: 3px solid rgb(149,191,50)!important
+}
+
+.header .flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px
+	
+}
+.header ul{
+	margin-bottom: 0
+}

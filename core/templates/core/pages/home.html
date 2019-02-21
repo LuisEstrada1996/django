@@ -1,0 +1,99 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="home">
+	<div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top parallax" uk-parallax="bgy: -350" style="background-image: url('http://legsoftware.com.mx/images/web.jpg');">
+
+		<div class="fondo"></div>
+		<h1 class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical" style="z-index: 3; line-height: 1.5;">
+			<span uk-scrollspy="cls: uk-animation-slide-top; delay: 200">S</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 400">e</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 600">m</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 800">i</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 1000">l</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 1200">l</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 1400">a</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 1600">L</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 1800">a</span><span uk-scrollspy="cls: uk-animation-slide-top; delay: 2000">b</span>
+			<br>
+			<p uk-scrollspy="cls: uk-animation-slide-top; delay: 2400">Donde las grandes ideas nacen</p>
+		</h1>
+		
+		
+	</div>
+</div>
+
+<div class="content-primary procesos">
+	<div class="row">
+		<div class="col-md-4">
+			<div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small" align="center">
+				<span uk-icon="icon: users; ratio: 3.5"></span><br><br>
+            	<h3 class="uk-card-title">Planificacion</h3>
+            	<p>Se definen los objetivos de manera directa, concreta y medible. En conjunto con el cliente discutimos su viabilidad y decidimos cuál es el camino que tomaremos con el sitio.</p>
+    		</div>
+        	
+		</div>
+		<div class="col-md-4">
+			<div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small" align="center">
+				<span uk-icon="icon: git-fork; ratio: 3.5"></span><br><br>
+        		<h3 class="uk-card-title">Desarrollo</h3>
+        		<p>Una vez definidos los objetivos y el contenido se comienza con la codificacion e implementacion del sistema.</p>
+    		</div>
+        	
+		</div>
+		<div class="col-md-4">
+			<div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small" align="center">
+				<span uk-icon="icon: world; ratio: 3.5"></span><br><br>
+        		<h3 class="uk-card-title">Lanzamiento</h3>
+        		<p>Cuando todo está revisado y aprobado, es momento de sacar el sitio o sistema a la web..</p>
+    		</div>
+		</div>
+	</div>
+</div>
+<br><br><br>
+<div class="separador"></div>
+
+
+
+<div class="servicios" >
+	<div class="content-primary" uk-scrollspy="cls: uk-animation-slide-left-small; repeat: true; delay: 250">
+		<h2>Servicios</h2>
+		<p >Contamos con experiencia en distintos ambitos</p>
+		<br><br>
+		<div class="row">
+			<div class="col-6">
+				<img src="{% static 'core/images/web.png' %}" alt="">
+				<p>
+					Paginas Web
+				</p>
+				<span class="descripcion">Desarrollo de página web a la medida, acorde a las necesidades del cliente.</span>
+			</div>
+			<div class="col-6">
+				<img src="{% static 'core/images/shop.png' %}" alt="">
+				<p>
+					Tiendas en linea
+				</p>
+				<span class="descripcion">Vende por internet todo lo que tú quieras, desde productos físicos, digitales y hasta servicios.</span>
+
+			</div>
+		</div>
+		<br><br>
+		<div class="row">
+			<div class="col-6">
+				<img src="{% static 'core/images/coding.png' %}" alt="">
+				<p>
+					Sistemas Web
+				</p>
+				<span class="descripcion">Desarrollo de cualquier sistema web, por ejemplo sistemas administrativos, manejo de inventarios, cotizadores.</span>
+
+			</div>
+			<div class="col-6">
+				<img src="{% static 'core/images/smartphone.png' %}" alt="">
+				<p>
+					Apps Moviles
+				</p>
+				<span class="descripcion">Desarrollo de apps moviles</span>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="separador" style="margin-top: -50px"></div>
+<br><br><br><br><br><br><br><br><br><br>
+{% endblock %}
